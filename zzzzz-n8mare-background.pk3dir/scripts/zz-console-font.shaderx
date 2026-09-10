@@ -1,0 +1,63 @@
+gfx/2d/bigchars
+{
+	nopicmip
+	nomipmaps
+	if ( $n8_consoleFont == 1 )
+	{
+		map gfx/2d/con_verdana.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen vertex
+    }
+	else
+	{
+		map gfx/2d/bigchars.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen vertex
+	}
+}
+
+// xq3e
+
+xmod/gfx/bigchars_16
+{
+	nopicmip
+	nomipmaps
+	{
+		map gfx/2d/con_verdana.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen vertex
+	}
+}
+
+xmod/gfx/bigchars_32
+{
+	nopicmip
+	nomipmaps
+	{
+		map gfx/2d/con_verdana.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen vertex
+	}
+}
+
+xmod/gfx/bigchars_64
+{
+	nopicmip
+	nomipmaps
+	{
+		map gfx/2d/con_verdana.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen vertex
+	}
+}
+
+xmod/gfx/xbigchars
+{
+	nopicmip
+	nomipmaps
+	{
+		map gfx/2d/con_verdana.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen vertex
+	}
+}

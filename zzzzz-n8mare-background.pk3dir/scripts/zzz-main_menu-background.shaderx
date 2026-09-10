@@ -1,0 +1,62 @@
+menuback
+{
+	nomipmaps
+	{
+//		map textures/sfx/logo512.tga
+//		tcMod turb 0 0.06 0 0.06
+//		blendfunc GL_ONE GL_ONE
+//	}	
+//  {
+//		map textures/sfx/logo513.tga
+//		blendfunc GL_ONE gl_one_minus_src_color
+//		tcMod turb 0 0.04 0 0.04
+//		rgbGen wave sin 0.9 0.5 0.1 0.12
+//	}
+//	{
+//		map textures/sfx/logo516.tga
+//		blendfunc GL_ONE GL_ONE
+//		tcMod turb 0 0.04 0 0.04
+//		rgbGen wave sin 0.3 1 2 0.2
+//	}
+//	{
+//		map textures/sfx/logo517.tga
+//		blendfunc GL_ONE GL_ONE
+//	    rgbGen identity
+//		tcMod turb 0 0.04 0 0.04
+//		rgbGen wave sin 0.2 1 0.4 0.15
+//	}	
+//	{
+		map textures/sfx/bgshots/1.tga
+		blendFunc blend
+		//alphagen wave sin .7 0.2 .75 .15
+		//rgbGen wave sin .6 .8 .75 .15
+		//tcMod turb 0.02 0.03 0.02 0.03
+	}
+	{
+		animMap 11 textures/sfx/sparks/1.jpg textures/sfx/sparks/2.jpg textures/sfx/sparks/3.jpg textures/sfx/sparks/4.jpg textures/sfx/sparks/5.jpg textures/sfx/sparks/6.jpg textures/sfx/sparks/7.jpg textures/sfx/sparks/8.jpg textures/sfx/sparks/9.jpg textures/sfx/sparks/10.jpg textures/sfx/sparks/11.jpg textures/sfx/sparks/12.jpg textures/sfx/sparks/13.jpg textures/sfx/sparks/14.jpg textures/sfx/sparks/15.jpg textures/sfx/sparks/16.jpg textures/sfx/sparks/17.jpg textures/sfx/sparks/18.jpg textures/sfx/sparks/19.jpg textures/sfx/sparks/20.jpg textures/sfx/sparks/21.jpg textures/sfx/sparks/22.jpg textures/sfx/sparks/23.jpg textures/sfx/sparks/24.jpg
+		blendfunc add
+
+	}
+}
+
+menubackNoLogo
+{
+nopicmip
+nomipmaps
+	{
+		map textures/sfx/bgshots/1.tga
+		blendFunc blend
+		//rgbGen const ( 0.7 0.7 0.7 )
+	}
+}
+
+menubackRage
+{
+nopicmip
+nomipmaps
+	{
+		map textures/sfx/bgshots/1.tga
+		blendFunc blend
+		//rgbGen const ( 0.7 0.7 0.7 )
+	}
+}
